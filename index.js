@@ -1,6 +1,5 @@
 require("dotenv").config();
-process.env.FFMPEG_PATH = require("ffmpeg-static");
-
+process.env.FFMPEG_PATH = "ffmpeg";
 const {
   Client,
   GatewayIntentBits,
